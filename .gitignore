@@ -1,0 +1,42 @@
+# Git backup
+.git_backup/
+
+# Python environments
+.venv/
+venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Temporary Zoom investigation files
+backend/zoom_api_check.py
+backend/zoom_check.py
+backend/zoom_config.json
+backend/zoom_endpoint_test.py
+backend/zoom_main.js
+backend/zoom_pricing.js
+backend/zoom_vendor.js
